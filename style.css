@@ -54,13 +54,12 @@ body {
   color: white;
 }
 
-.mynavbar {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(3px);
+.mynavbar .container {
+  /* backdrop-filter: blur(10px); */
 }
-.mynavbar .offcanvas {
+/* .mynavbar .offcanvas-end {
   height: 100vh;
-}
+} */
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
   font-family: "Sacramento", cursive;
