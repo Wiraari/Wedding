@@ -7,7 +7,6 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 4000px;
 }
 .hero::before {
   content: "";
@@ -144,7 +143,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
-
+.info .card-body {
+  font-size: 1rem;
+}
+.info .card-footer {
+  border-top: 1px solid #999 !important;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
 /* media query */
 
 /* Extra Large */
@@ -187,9 +193,5 @@ body {
 @media (max-width: 576px) {
   html {
     font-size: 55%;
-  }
-  .simply-countdown > .simply-section {
-    padding: 30px;
-    margin: 3px;
   }
 }
